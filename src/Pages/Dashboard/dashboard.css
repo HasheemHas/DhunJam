@@ -1,0 +1,143 @@
+.DashboardContainer {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.DisplayText {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.DashboardTitle {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: bold;
+    margin: "20px 0"
+}
+
+.FieldContainer {
+    display: flex;
+    margin: 10px 0;
+}
+
+.InputFieldLabel {
+    width: 50%;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.NormalSaveBtn {
+    background-color: #6741D9;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Poppins;
+    padding: 5px 0;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.NormalSaveBtn:hover {
+    border: solid 1px #F0C3F1 !important;
+}
+
+.NormalSaveBtn:active {
+    border: solid 1px #F0C3F1 !important;
+}
+
+.GreyoutSaveBtn {
+    color: #FFFFFF;
+    background-color: #C2C2C2;
+    border: solid 1px #C2C2C2;
+    font-size: 16px;
+    font-family: Poppins;
+    padding: 5px 0;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.RegularAmountInputField {
+    font-size: 16px;
+    font-family: Poppins;
+    padding: 5px 5px;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 50px;
+}
+
+.CustomAmountInputField {
+    font-size: 16px;
+    font-family: Poppins;
+    padding: 5px 5px;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.NormalInputField {
+    color: #FFFFFF;
+    border: solid 1px #FFFFFF;
+}
+
+.GreyOutInputField {
+    color: #C2C2C2;
+    border: solid 1px #C2C2C2;
+}
+
+.ChargeCustomerInputField {
+    color: #6741D9;
+    background-color: #C2C2C2
+}
+
+.ChargeCustomerInputLabel {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.GraphFieldLabel {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.GraphFieldContainer {
+    margin: 10px 0;
+}
+
+.RegularFieldContainer {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CustomFieldContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChargeCustomerContainer {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChargeCustomerLabelWrapper {
+    display: flex;
+    gap: 5px;
+}
+
+.SaveBtnContainer {
+    margin: 20px 0;
+}
